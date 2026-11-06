@@ -14,7 +14,10 @@ spring:
   h2:
     console:
       enabled: true
-
   ai:
     openai:
-      api-key: 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
+      api-key: ${OPENAI_API_KEY}
+      image:
+        options:
+          model: gpt-image-2
+
