@@ -4,4 +4,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
+  sql:
+    init:
+      mode: never
+
     defer-datasource-initialization: true
