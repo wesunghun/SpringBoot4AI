@@ -4,6 +4,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
+    defer-datasource-initialization: true
   sql:
     init:
       mode: never
@@ -14,4 +15,6 @@ spring:
     console:
       enabled: true
 
-    defer-datasource-initialization: true
+  ai:
+    openai:
+      api-key: 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
